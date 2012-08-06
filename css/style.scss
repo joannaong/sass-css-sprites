@@ -1,0 +1,22 @@
+li {
+  list-style: none;
+  height: 150px;
+  width: 150px;
+  display: inline-block;
+}
+
+
+/* icon sprite */
+$humans: afroGirl, sikh, ninja, afroGuy;
+
+$i: 0;
+@each $human in $humans {
+  .#{$human} {
+    background: url("../humans.jpg") no-repeat $i 0;
+    cursor: pointer;
+    &:hover {
+      background: url("../humans.jpg") no-repeat $i -150px;
+    }
+  }
+  $i: $i - 150px;
+} 

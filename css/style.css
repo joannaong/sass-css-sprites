@@ -1,0 +1,30 @@
+li {
+  list-style: none;
+  height: 150px;
+  width: 150px;
+  display: inline-block; }
+
+/* icon sprite */
+.afroGirl {
+  background: url("../humans.jpg") no-repeat 0 0;
+  cursor: pointer; }
+  .afroGirl:hover {
+    background: url("../humans.jpg") no-repeat 0 -150px; }
+
+.sikh {
+  background: url("../humans.jpg") no-repeat -150px 0;
+  cursor: pointer; }
+  .sikh:hover {
+    background: url("../humans.jpg") no-repeat -150px -150px; }
+
+.ninja {
+  background: url("../humans.jpg") no-repeat -300px 0;
+  cursor: pointer; }
+  .ninja:hover {
+    background: url("../humans.jpg") no-repeat -300px -150px; }
+
+.afroGuy {
+  background: url("../humans.jpg") no-repeat -450px 0;
+  cursor: pointer; }
+  .afroGuy:hover {
+    background: url("../humans.jpg") no-repeat -450px -150px; }
